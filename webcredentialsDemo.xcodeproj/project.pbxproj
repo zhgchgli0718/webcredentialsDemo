@@ -49,6 +49,7 @@
 		EDC13FBE25C8ED0500D31FBE /* webcredentialsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcredentialsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC13FC225C8ED0500D31FBE /* webcredentialsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webcredentialsDemoUITests.swift; sourceTree = "<group>"; };
 		EDC13FC425C8ED0500D31FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC13FD325C8ED3100D31FBE /* webcredentialsDemoDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = webcredentialsDemoDebug.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		EDC13F9F25C8ED0400D31FBE /* webcredentialsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EDC13FD325C8ED3100D31FBE /* webcredentialsDemoDebug.entitlements */,
 				EDC13FA025C8ED0400D31FBE /* AppDelegate.swift */,
 				EDC13FA225C8ED0400D31FBE /* SceneDelegate.swift */,
 				EDC13FA425C8ED0400D31FBE /* ViewController.swift */,
@@ -436,15 +438,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 84ZV2QN25Z;
+				CODE_SIGN_ENTITLEMENTS = webcredentialsDemo/webcredentialsDemoDebug.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = webcredentialsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = li.zhgchg.webcredentialsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,7 +466,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = li.zhgchg.webcredentialsDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
