@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC13FA125C8ED0400D31FBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC13FA025C8ED0400D31FBE /* AppDelegate.swift */; };
+		EDC13FA325C8ED0400D31FBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC13FA225C8ED0400D31FBE /* SceneDelegate.swift */; };
+		EDC13FA525C8ED0400D31FBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC13FA425C8ED0400D31FBE /* ViewController.swift */; };
+		EDC13FA825C8ED0400D31FBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC13FA625C8ED0400D31FBE /* Main.storyboard */; };
+		EDC13FAA25C8ED0500D31FBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC13FA925C8ED0500D31FBE /* Assets.xcassets */; };
+		EDC13FAD25C8ED0500D31FBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC13FAB25C8ED0500D31FBE /* LaunchScreen.storyboard */; };
+		EDC13FB825C8ED0500D31FBE /* webcredentialsDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC13FB725C8ED0500D31FBE /* webcredentialsDemoTests.swift */; };
+		EDC13FC325C8ED0500D31FBE /* webcredentialsDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC13FC225C8ED0500D31FBE /* webcredentialsDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC13FB425C8ED0500D31FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC13F9525C8ED0400D31FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC13F9C25C8ED0400D31FBE;
+			remoteInfo = webcredentialsDemo;
+		};
+		EDC13FBF25C8ED0500D31FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC13F9525C8ED0400D31FBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC13F9C25C8ED0400D31FBE;
+			remoteInfo = webcredentialsDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDC13F9D25C8ED0400D31FBE /* webcredentialsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webcredentialsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC13FA025C8ED0400D31FBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDC13FA225C8ED0400D31FBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDC13FA425C8ED0400D31FBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDC13FA725C8ED0400D31FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC13FA925C8ED0500D31FBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC13FAC25C8ED0500D31FBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC13FAE25C8ED0500D31FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC13FB325C8ED0500D31FBE /* webcredentialsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcredentialsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC13FB725C8ED0500D31FBE /* webcredentialsDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webcredentialsDemoTests.swift; sourceTree = "<group>"; };
+		EDC13FB925C8ED0500D31FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC13FBE25C8ED0500D31FBE /* webcredentialsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webcredentialsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC13FC225C8ED0500D31FBE /* webcredentialsDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webcredentialsDemoUITests.swift; sourceTree = "<group>"; };
+		EDC13FC425C8ED0500D31FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC13F9A25C8ED0400D31FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC13FB025C8ED0500D31FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC13FBB25C8ED0500D31FBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC13F9425C8ED0400D31FBE = {
+			isa = PBXGroup;
+			children = (
+				EDC13F9F25C8ED0400D31FBE /* webcredentialsDemo */,
+				EDC13FB625C8ED0500D31FBE /* webcredentialsDemoTests */,
+				EDC13FC125C8ED0500D31FBE /* webcredentialsDemoUITests */,
+				EDC13F9E25C8ED0400D31FBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC13F9E25C8ED0400D31FBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC13F9D25C8ED0400D31FBE /* webcredentialsDemo.app */,
+				EDC13FB325C8ED0500D31FBE /* webcredentialsDemoTests.xctest */,
+				EDC13FBE25C8ED0500D31FBE /* webcredentialsDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC13F9F25C8ED0400D31FBE /* webcredentialsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EDC13FA025C8ED0400D31FBE /* AppDelegate.swift */,
+				EDC13FA225C8ED0400D31FBE /* SceneDelegate.swift */,
+				EDC13FA425C8ED0400D31FBE /* ViewController.swift */,
+				EDC13FA625C8ED0400D31FBE /* Main.storyboard */,
+				EDC13FA925C8ED0500D31FBE /* Assets.xcassets */,
+				EDC13FAB25C8ED0500D31FBE /* LaunchScreen.storyboard */,
+				EDC13FAE25C8ED0500D31FBE /* Info.plist */,
+			);
+			path = webcredentialsDemo;
+			sourceTree = "<group>";
+		};
+		EDC13FB625C8ED0500D31FBE /* webcredentialsDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC13FB725C8ED0500D31FBE /* webcredentialsDemoTests.swift */,
+				EDC13FB925C8ED0500D31FBE /* Info.plist */,
+			);
+			path = webcredentialsDemoTests;
+			sourceTree = "<group>";
+		};
+		EDC13FC125C8ED0500D31FBE /* webcredentialsDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC13FC225C8ED0500D31FBE /* webcredentialsDemoUITests.swift */,
+				EDC13FC425C8ED0500D31FBE /* Info.plist */,
+			);
+			path = webcredentialsDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC13F9C25C8ED0400D31FBE /* webcredentialsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC13FC725C8ED0500D31FBE /* Build configuration list for PBXNativeTarget "webcredentialsDemo" */;
+			buildPhases = (
+				EDC13F9925C8ED0400D31FBE /* Sources */,
+				EDC13F9A25C8ED0400D31FBE /* Frameworks */,
+				EDC13F9B25C8ED0400D31FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webcredentialsDemo;
+			productName = webcredentialsDemo;
+			productReference = EDC13F9D25C8ED0400D31FBE /* webcredentialsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC13FB225C8ED0500D31FBE /* webcredentialsDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC13FCA25C8ED0500D31FBE /* Build configuration list for PBXNativeTarget "webcredentialsDemoTests" */;
+			buildPhases = (
+				EDC13FAF25C8ED0500D31FBE /* Sources */,
+				EDC13FB025C8ED0500D31FBE /* Frameworks */,
+				EDC13FB125C8ED0500D31FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC13FB525C8ED0500D31FBE /* PBXTargetDependency */,
+			);
+			name = webcredentialsDemoTests;
+			productName = webcredentialsDemoTests;
+			productReference = EDC13FB325C8ED0500D31FBE /* webcredentialsDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDC13FBD25C8ED0500D31FBE /* webcredentialsDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC13FCD25C8ED0500D31FBE /* Build configuration list for PBXNativeTarget "webcredentialsDemoUITests" */;
+			buildPhases = (
+				EDC13FBA25C8ED0500D31FBE /* Sources */,
+				EDC13FBB25C8ED0500D31FBE /* Frameworks */,
+				EDC13FBC25C8ED0500D31FBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC13FC025C8ED0500D31FBE /* PBXTargetDependency */,
+			);
+			name = webcredentialsDemoUITests;
+			productName = webcredentialsDemoUITests;
+			productReference = EDC13FBE25C8ED0500D31FBE /* webcredentialsDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC13F9525C8ED0400D31FBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EDC13F9C25C8ED0400D31FBE = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					EDC13FB225C8ED0500D31FBE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EDC13F9C25C8ED0400D31FBE;
+					};
+					EDC13FBD25C8ED0500D31FBE = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = EDC13F9C25C8ED0400D31FBE;
+					};
+				};
+			};
+			buildConfigurationList = EDC13F9825C8ED0400D31FBE /* Build configuration list for PBXProject "webcredentialsDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC13F9425C8ED0400D31FBE;
+			productRefGroup = EDC13F9E25C8ED0400D31FBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC13F9C25C8ED0400D31FBE /* webcredentialsDemo */,
+				EDC13FB225C8ED0500D31FBE /* webcredentialsDemoTests */,
+				EDC13FBD25C8ED0500D31FBE /* webcredentialsDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC13F9B25C8ED0400D31FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC13FAD25C8ED0500D31FBE /* LaunchScreen.storyboard in Resources */,
+				EDC13FAA25C8ED0500D31FBE /* Assets.xcassets in Resources */,
+				EDC13FA825C8ED0400D31FBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC13FB125C8ED0500D31FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC13FBC25C8ED0500D31FBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC13F9925C8ED0400D31FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC13FA525C8ED0400D31FBE /* ViewController.swift in Sources */,
+				EDC13FA125C8ED0400D31FBE /* AppDelegate.swift in Sources */,
+				EDC13FA325C8ED0400D31FBE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC13FAF25C8ED0500D31FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC13FB825C8ED0500D31FBE /* webcredentialsDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC13FBA25C8ED0500D31FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC13FC325C8ED0500D31FBE /* webcredentialsDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC13FB525C8ED0500D31FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC13F9C25C8ED0400D31FBE /* webcredentialsDemo */;
+			targetProxy = EDC13FB425C8ED0500D31FBE /* PBXContainerItemProxy */;
+		};
+		EDC13FC025C8ED0500D31FBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC13F9C25C8ED0400D31FBE /* webcredentialsDemo */;
+			targetProxy = EDC13FBF25C8ED0500D31FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC13FA625C8ED0400D31FBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC13FA725C8ED0400D31FBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC13FAB25C8ED0500D31FBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC13FAC25C8ED0500D31FBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC13FC525C8ED0500D31FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDC13FC625C8ED0500D31FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC13FC825C8ED0500D31FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84ZV2QN25Z;
+				INFOPLIST_FILE = webcredentialsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC13FC925C8ED0500D31FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84ZV2QN25Z;
+				INFOPLIST_FILE = webcredentialsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDC13FCB25C8ED0500D31FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84ZV2QN25Z;
+				INFOPLIST_FILE = webcredentialsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webcredentialsDemo.app/webcredentialsDemo";
+			};
+			name = Debug;
+		};
+		EDC13FCC25C8ED0500D31FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84ZV2QN25Z;
+				INFOPLIST_FILE = webcredentialsDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webcredentialsDemo.app/webcredentialsDemo";
+			};
+			name = Release;
+		};
+		EDC13FCE25C8ED0500D31FBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84ZV2QN25Z;
+				INFOPLIST_FILE = webcredentialsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = webcredentialsDemo;
+			};
+			name = Debug;
+		};
+		EDC13FCF25C8ED0500D31FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84ZV2QN25Z;
+				INFOPLIST_FILE = webcredentialsDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zhgchgli.webcredentialsDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = webcredentialsDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC13F9825C8ED0400D31FBE /* Build configuration list for PBXProject "webcredentialsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC13FC525C8ED0500D31FBE /* Debug */,
+				EDC13FC625C8ED0500D31FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC13FC725C8ED0500D31FBE /* Build configuration list for PBXNativeTarget "webcredentialsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC13FC825C8ED0500D31FBE /* Debug */,
+				EDC13FC925C8ED0500D31FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC13FCA25C8ED0500D31FBE /* Build configuration list for PBXNativeTarget "webcredentialsDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC13FCB25C8ED0500D31FBE /* Debug */,
+				EDC13FCC25C8ED0500D31FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC13FCD25C8ED0500D31FBE /* Build configuration list for PBXNativeTarget "webcredentialsDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC13FCE25C8ED0500D31FBE /* Debug */,
+				EDC13FCF25C8ED0500D31FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC13F9525C8ED0400D31FBE /* Project object */;
+}
